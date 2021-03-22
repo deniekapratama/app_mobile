@@ -9,4 +9,31 @@ section {
     height: 1020px;
     width: 480px ;
     border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+header {
+    padding:30px;
+    padding-top: 45px;
+    padding-bottom: 0px;
+    .menu {
+        display:block;
+        background:#F7F7F7;
+        padding: 0.5em;
+        padding-top: 1em ;
+        padding-right: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+         
+    }
+}
+
+main {
+    background: #F7F7F7;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    min-height: 100px;
+     
 }
